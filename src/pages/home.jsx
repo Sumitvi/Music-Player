@@ -1,14 +1,12 @@
 import React from 'react'
 import SideBar from '../component/SideBar'
-import Navbar from '../component/Navbar'
+// import Navbar from '../component/Navbar'
 
 const home = () => {
   return (
     <div>
 
-        <Navbar/>
-
-      {/* <SideBar/> */}
+      <SideBar/>
     </div>
   )
 }
